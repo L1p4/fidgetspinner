@@ -1,2 +1,2 @@
 # fidgetspinner
-turns windows into a fidget spimner xd
+turns windows into a fidget spinner xd
