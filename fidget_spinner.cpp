@@ -22,7 +22,7 @@ void barel_roll()
 		Sleep(800);
 
         if (ChangeDisplaySettings(&dm,0) != DISP_CHANGE_SUCCESSFUL)
-            MessageBox(NULL, "noce se vrtet", "meeee error", MB_OK);
+            MessageBox(NULL, "noce se vrtet", "neeee error", MB_OK);
     }
 }
 
