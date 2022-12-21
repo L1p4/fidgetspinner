@@ -22,7 +22,8 @@ void barel_roll()
 		Sleep(800);
 
         if (ChangeDisplaySettings(&dm,0) != DISP_CHANGE_SUCCESSFUL)
-            MessageBox(NULL, "noce se vrtet", "neeee error", MB_OK);
+	    // L is used to inform the MSVC compiler of required conversion to unicode. GCC compiles without it:
+            MessageBox(NULL, L"noce se vrtet", L"neeee error", MB_OK); 
     }
 }
 
